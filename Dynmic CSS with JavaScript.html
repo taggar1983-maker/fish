@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>🐟 Magic Aquarium 🐟</title>
+<style>
+    body {
+        background:linear-gradient(lightcyan, lightblue);
+        min-height: 100vh;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+
+    h1 {
+        color:darkblue;
+        text-shadow: 2px 2px white;
+    }
+
+    #aquarium {
+        max-width: 500px;
+        height: 300px;
+        background-color: skyblue;
+        border: 8px solid steelblue;
+        border-radius: 20px;
+        margin: auto;
+        padding: 20px;
+        box-shadow: 5px 5px 15px gray;
+    }
+
+    #fish {
+        margin-top: 45px;
+        transition: 0.5;
+    }
+    #octoupus {
+        display: none;
+        margin-left: 30px;
+    }
+
+    #message {
+        colour: darkblue;
+        font-size: 20px;
+    }
+
+    .controls {
+        display: flex;
+        justify-content: center;
+        flex-warp: wrap;
+        gap: 10px;
+    }
+
+   button {
+    background-color: dodgerblue;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+   }
+
+   button:hover {
+    background-color: darkblue;
+   }
+   </style>
+   </head>
+
+   <body>
+       <h1 id="title">My Magic Aquarium</h1>
+       <div id="aquarium">
+        <img id="fish" src="https://tse3.mm.bing.net/th/id/OIP.LE4IAeMOUjYR3o3MnGcTyAHaHa?r=0&pid=Api&h=220&P=0"
+        width="150">
+
+        <img id="fish" src="https://tse3.mm.bing.net/th/id/OIP._NT6gX3nJ_1H2Y9Bk-YWrwHaHa?r=0&pid=Api&h=220&P=0"
+        width="100">
+        <h2 id="message">Welcome to my underwater world</h2>
